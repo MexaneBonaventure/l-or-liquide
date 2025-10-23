@@ -9,22 +9,53 @@
 </head>
 
 <body>
-    <header>
+    <header role="banner">
         <h1>L'Or Liquide</h1>
-        <nav>
-            <a href="*">Nos Bières</a>
-            <a href="*">La Brasserie</a>
-            <a href="*">Contact</a>
+        <nav role="navigation" aria-label="Menu principal">
+            <ul>
+                <li><a href="#beer">Nos Bières</a></li>
+                <li><a href="#brewery">La Brasserie</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
+
+    <main>
+        <section id="beer" aria-labelledby="beer-title">
+            <h2 id="beer-title">Nos Bières</h2>
+            <ul>
+                <li>Le jus de Damien</li>
+                <li>La Bière Burne</li>
+                <li>L'Horrible (IPA)</li>
+                <li>La mystérieuse</li>
+            </ul>
+        </section>
+
+        <section id="brewery" aria-labelledby="brewery-title">
+            <h2 id="brewery-title">La Brasserie</h2>
+            <p>Découvrez notre brasserie artisanale, notre histoire et nos techniques de brassage.</p>
+            <p>Venez profiter des animations de notre légende locale, le grand et magnificent Damien Landa !</p>
+
+        </section>
+
+        <section id="contact" aria-labelledby="contact-title">
+            <h2 id="contact-title">Contact</h2>
+            <address>
+                Brasserie L'Or Liquide<br>
+                123 Rue des Houblons, 75000 Paris<br>
+                <a href="tel:+33123456789">01 23 45 67 89</a><br>
+                <a href="mailto:contact@brasserie.com">contact@brasserie.com</a>
+        </section>
+    </main>
+
     <footer role="contentinfo" aria-label="Pied de page de la brasserie">
-        <p> 2025 Brasserie L'or liquide</p>
+        <p>© 2025 Brasserie L'Or Liquide</p>
         <nav aria-label="Liens de pied de page">
             <ul>
-                <li><a href="accueil">Accueil</a></li>
-                <li><a href="menu">Menu</a></li>
-                <li><a href="contact">Contact</a></li>
-                <li><a href="mentions">Mentions légales</a></li>
+                <li><a href="#beer">Nos Bières</a></li>
+                <li><a href="#brewery">La Brasserie</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#mentions">Mentions légales</a></li>
             </ul>
         </nav>
     </footer>
