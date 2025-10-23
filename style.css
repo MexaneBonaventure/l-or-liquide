@@ -1,0 +1,61 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Page*/
+body{
+    background-color: #E7C69F;
+}
+
+/*header et footer*/
+header, footer{
+    background-color: #88572E;
+    color: #E7C69F;
+    text-align: center;
+    position: fixed;
+}
+nav > a, nav > ul > li > a{
+    color: #E7C69F;
+    text-decoration: none;
+}
+/*header*/
+header{
+    width:100%;
+    left:0;
+    top:0;
+}
+
+
+/*footer*/
+footer{
+    width:100%;
+    left:0;
+    bottom:0;
+}
+nav > ul >li{
+    list-style-type: none;
+}
+
+/*Page*/
+section{
+    background-color: #EFD9BE;
+    margin-bottom: 15px;
+    padding: 5px 15px;
+    border-radius: 25px;
+}
+
+section > h2{
+    text-decoration:underline;
+}
+
+main, address > a {
+    color:#391809;
+}
+
+address{
+    padding-bottom: 15px;
+}
+
+#beer{
+    margin-top: 165px;
+}
